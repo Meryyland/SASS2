@@ -41,6 +41,7 @@ main {
 }
 main section h2 {
   color: aquamarine;
+  font-family: "Open Sans", sans-serif;
 }
 main section p {
   font-family: "Open Sans", sans-serif;

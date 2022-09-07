@@ -11,35 +11,25 @@ header {
     margin: 0px;
     padding: 20px;
     height: 100px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: rgb(36, 199, 158);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    background-color: #210825;
+    justify-content: space-between;
 
-    nav {
-
-        //estilos nav
+    nav{
+        @extend %estiloFondo;
         ul {
             //estilos ul
             list-style-type: none;
-            align-items: center;
-            align-content: space-around;
-            display: flex;
-            flex-direction: row;
-
+            @extend %estiloFondo;
+            justify-content: space-around;
             li {
                 a {
                     //estilo de las anclas
-                    color: rgb(214, 197, 219);
                     font-size: 1.5rem;
-                    font-family: 'Open Sans', sans-serif;
                     line-height: 1.8;
                     text-decoration: none;
                     border: none;
                     padding-right: 30px;
-                    font-weight: bold;
+                    @include textStyle(#d6c5db);
                 }
             }
         }
@@ -47,25 +37,16 @@ header {
 }
 
 main {
-    background-color: black;
     margin: 20px;
     padding: 20px;
+    background-color: white;
 
     section {
-        h2 {
-            color: aquamarine;
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        p {
-            font-family: 'Open Sans', sans-serif;
-            text-align: center;
-            color: rgb(36, 199, 158);
-        }
 
         img {
             width: 200px;
             height: 200px;
+            align-items: center;
 
             &:hover {
                 transform: scale(1.05);
@@ -79,25 +60,18 @@ footer {
     margin: 0px;
     padding: 20px;
     height: 100px;
-    background-color: rgb(33, 8, 37);
+    background-color: #210825;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
 
     ul {
         list-style-type: none;
         align-content: space-around;
-        display: flex;
-        flex-direction: row;
+        @extend %estiloFondo;
 
         li {
-            font-size: 1.3rem;
-            line-height: 1.3;
-            padding-right: 30px;
-            color: rgb(214, 197, 219);
+            @include textStyle(#d6c5db);
             font-size: 1.5rem;
             font-family: 'Open Sans', sans-serif;
             line-height: 1.8;
@@ -107,4 +81,13 @@ footer {
             font-weight: bold;
         }
     }
+}
+
+
+.titulos {
+    @include textStyle(#260a2e)
+}
+
+.parrafos {
+    @include textStyle(#260a2e)
 }

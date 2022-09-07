@@ -1,0 +1,15 @@
+%estiloFondo{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+//arriba aplique Extend y acá abajo Mixin
+
+@mixin textStyle ($colorLetras) {
+    color: $colorLetras;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    font-weight: bold;
+}

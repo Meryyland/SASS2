@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
+@import './variables/extend';
+
 header {
     //estilos header
     margin: 0px;
     padding: 20px;
     height: 100px;
-    background-color: rgb(33, 8, 37);
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: rgb(36, 199, 158);
@@ -49,6 +50,7 @@ main {
     background-color: black;
     margin: 20px;
     padding: 20px;
+
     section {
         h2 {
             color: aquamarine;
@@ -80,16 +82,29 @@ footer {
     background-color: rgb(33, 8, 37);
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    color: rgb(36, 199, 158);
+
     display: flex;
+    flex-direction: row;
     align-items: center;
 
     ul {
+        list-style-type: none;
+        align-content: space-around;
+        display: flex;
+        flex-direction: row;
+
         li {
-            grid-area: footer;
             font-size: 1.3rem;
             line-height: 1.3;
             padding-right: 30px;
+            color: rgb(214, 197, 219);
+            font-size: 1.5rem;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.8;
+            text-decoration: none;
+            border: none;
+            padding-right: 30px;
+            font-weight: bold;
         }
     }
 }

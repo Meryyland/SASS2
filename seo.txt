@@ -1,0 +1,8 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+-Keywords: sumé keywords relacionadas con la temática de la web, que es una web de moda. Para esto utilicé la etiqueta
+ "meta" y las siguientes keywords: "ropa, moda, vestimenta, calzado, estilo, outfits"
+-Descripción: sumé una breve descripción sobre la página de inicio. 
+-Titulos: cambié el titulo "Document" que viene por defecto por "Home" para que haga referencia al Inicio. 
+Encabezado: para el encabezado del index utilicé el h1 con el texto “Bienvenido a tiendamoda” porque está relacionado 
+al contenido de la web y ademas incluye la marca que sirve para posicionarla en SEO

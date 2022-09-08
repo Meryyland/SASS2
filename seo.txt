@@ -5,4 +5,7 @@ En el archivo index.html sumé el SEO con las siguientes características:
 -Descripción: sumé una breve descripción sobre la página de inicio. 
 -Titulos: cambié el titulo "Document" que viene por defecto por "Home" para que haga referencia al Inicio. 
 Encabezado: para el encabezado del index utilicé el h1 con el texto “Bienvenido a tiendamoda” porque está relacionado 
-al contenido de la web y ademas incluye la marca que sirve para posicionarla en SEO
+al contenido de la web y ademas incluye la marca que sirve para posicionarla en SEO.
+
+Las mismas optimizaciones apliqué con la seccion de contacto, donde usé keywords distintas y relacionadas a la pagina 
+de contacto: "faq, preguntas, frecuentes, ropa, dudas, sugerencias"
